@@ -1,0 +1,11 @@
+.about {
+  margin-top: 7%;
+}
+
+.about > h1 {
+  color: var(--color-myName);
+}
+
+.about > h2 {
+  color: var(--color-borders-section-labels);
+}

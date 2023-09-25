@@ -1,13 +1,82 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-borders-section-labels: #d64933;
+  --color-row-background: rgba(37, 50, 55, 0.6);
+  --color-sm-font-color: #9db4c0;
+  --color-myBg: #0c1821;
+  --color-myName: #f7b801;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: var(--color-myBg);
+  color: var(--color-sm-font-color);
+  background-image: url("./assets/honeycomb_bg.png");
+}
+
+/* Basic styling for rows below, precise styling to be done in component styling. */
+.row {
+  background-color: var(--color-row-background);
+}
+
+/* Left Row */
+
+.left_row {
+  border-top: 2px solid var(--color-borders-section-labels);
+  border-right: 2px solid var(--color-borders-section-labels);
+  border-bottom: 2px solid var(--color-borders-section-labels);
+  border-radius: 0 60px 60px 0;
+  width: 80%;
+  padding: 1% 1% 1% 10%;
+  font-weight: 200;
+}
+
+/* Left Row */
+
+/* Right Row */
+
+.right_row {
+  position: relative;
+  margin-left: 20%;
+  border-top: 2px solid var(--color-borders-section-labels);
+  border-left: 2px solid var(--color-borders-section-labels);
+  border-bottom: 2px solid var(--color-borders-section-labels);
+  border-radius: 60px 0 0 60px;
+  width: 80%;
+  padding: 1% 10% 1% 1%;
+  font-weight: 200;
+}
+
+/* Right Row */
+
+/* Skill Row */
+
+.skill_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.skill_row img {
+  width: auto;
+  height: 100px;
+  padding: 20px 20px 0 20px;
+}
+
+/* Skill Row */
+
+.skills {
+  text-align: center;
 }
