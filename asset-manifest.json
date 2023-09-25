@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Logan-Floyd-React-Portfolio/static/css/main.6ab2ff16.css",
+    "main.js": "/Logan-Floyd-React-Portfolio/static/js/main.df5ce65a.js",
+    "static/media/honeycomb_bg.png": "/Logan-Floyd-React-Portfolio/static/media/honeycomb_bg.2e3a8c486f9a1099cf72.png",
+    "index.html": "/Logan-Floyd-React-Portfolio/index.html",
+    "main.6ab2ff16.css.map": "/Logan-Floyd-React-Portfolio/static/css/main.6ab2ff16.css.map",
+    "main.df5ce65a.js.map": "/Logan-Floyd-React-Portfolio/static/js/main.df5ce65a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ab2ff16.css",
+    "static/js/main.df5ce65a.js"
+  ]
+}
